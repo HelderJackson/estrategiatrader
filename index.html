@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+          <link rel="stylesheet" href="main.css">
+          <title>Login</title>
+</head>
+<body>
+          <div class="row align-items-center h-100 ">
+                    <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">
+                        <form class="form" method="post">
+                            <img class="row mx-auto" src="logo.png" width="150">
+                            <div class="form-group ">
+                                <input type="text" id="email" placeholder="Email" class="form-control i-form">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" id="senha" placeholder="Password" class="form-control i-form">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" id="submit" class="btn btn-dark btn-md btn-block">Login</button>
+                            </div>
+                            <span role="alert" id="EmailError" aria-hidden="true">
+                              E-mail Inválido.
+                            </span>
+                            <span role="alert" id="SenhaError" aria-hidden="true">
+                              E-mail Inválido.
+                            </span>
+                        </form>
+                    </div>
+                </div>
+<script async  src="app.js"></script>
+</body>
+</html>
