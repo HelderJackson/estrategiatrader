@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="main.css">
-          <title>EM CONSTRUÇÃO</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styleTelaPrincipal.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+   <title>EM CONSTRUÇÃO</title>
 </head>
+
 <body>
-       <div class=".teste" style="text-align: center;">
-       <font size="60" color="black" heigt="100" >EM CONSTRUÇÃO</font>
-       </div>
+   <div class="container">
+      <div class="header">
+         <h2>ESTRATÉGIA G-GREN 1,5 GOLS.</h2>
+      </div>
+
+      <form id="form" class="form">
+         <div class="form-control">
+            <label for="nmDeJgTimeDaCasa">Número de Jogos do Time da Casa</label>
+            <input type="text" id="nmDeJgTimeDaCasa" placeholder="Digite Número de Jogos" />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+         </div>
+
+         <div class="form-control">
+            <label for="nmDeJgTimeDeFora">Número de Jogos do Time de Fora</label>
+            <input type="text" id="nmDeJgTimeDeFora" placeholder="Digite Número de Jogos" />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>ERRO</small>
+         </div>
+         <button type="submit">Calcular</button>
+         <p class="resultado"></p>
+      </form>
+   </div>
+   <script src="TelaPrincipal.js"></script>
+   <script src="https://kit.fontawesome.com/5aa0e30005.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

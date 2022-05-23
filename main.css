@@ -1,32 +1,48 @@
-body,html{
- height: 100%; 
- overflow: hidden;
- background-image: url(background.jpg);
- background-repeat: no-repeat;
- background-size: cover;
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.l-form {
+  background-color: rgba(39, 41, 45, 0.5);
+  border-radius: 12px;
+  padding: 12px;
+}
 
-.l-form{
- background-color:rgba(39, 41, 45, 0.5);
- border-radius:12px;
- padding: 12px;
-        }
-        
-.i-form{
- border-radius:12px;
- padding: 12px;
+.gradePrincipal {
+  background-color: rgba(39, 41, 45, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.i-form {
+  border: radius 12px;
+  padding: 12px;
 }
 
 #EmailError {
-          display: none;
-          font-size: 0.8em;
-        }
-        
-        #EmailError.visible {
-          display: block;
-        }
-        
-        input.invalid {
-          border-color: red;
-        }
+  display: none;
+  font-size: 0.8em;
+}
+
+#EmailError.visible {
+  display: block;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+label {
+  color: whitesmoke;
+}
+
+H2 {
+  color: whitesmoke;
+  font-size: large;
+  text-align: center;
+}
