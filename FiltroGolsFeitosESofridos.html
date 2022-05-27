@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+          <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="FiltroGolsFeitosESofridos.css">
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+                              rel="stylesheet">
+                    <title>EM CONSTRUÇÃO</title>
+          </head>
+
+          <body>
+                    <div class="container">
+                              <div class="header">
+                                        <h2>ESTRATÉGIA G-GREN 1,5 GOLS.</h2>
+                              </div>
+                              <h1>ANÁLISANDO GOLS FEITOS E SOFRIDOS DE CADA TIME.</h2>
+                                        <form id="form" class="form">
+                                                  <div class="form-control">
+                                                            <label for="golsFeitos_TimeDaCasa">Gols Feitos pelo Time da
+                                                                      Casa</label>
+                                                            <input type="number" id="golsFeitos_TimeDaCasa"
+                                                                      placeholder="Digite Número de Gols" />
+                                                            <i class="fas fa-exclamation-circle"></i>
+                                                            <i class="fas fa-check-circle"></i>
+                                                            <small>Mensagem de erro</small>
+                                                  </div>
+                                                  <div id="painel" class="painel"></div>
+                                                  <div class="form-control">
+                                                            <label for="golsSofridos_TimeDaCasa">Gols Sofridos pelo Time
+                                                                      da Casa</label>
+                                                            <input type="number" id="golsSofridos_TimeDaCasa"
+                                                                      placeholder="Digite Número de Gols" />
+                                                            <i class="fas fa-exclamation-circle"></i>
+                                                            <i class="fas fa-check-circle"></i>
+                                                            <small>ERRO</small>
+                                                  </div>
+
+                                                  <div class="form-control">
+                                                            <label for="golsFeitos_TimeDeFora">Gols Feitos pelo Time de
+                                                                      Fora</label>
+                                                            <input type="number" id="golsFeitos_TimeDeFora"
+                                                                      placeholder="Digite Número de Gols" />
+                                                            <i class="fas fa-exclamation-circle"></i>
+                                                            <i class="fas fa-check-circle"></i>
+                                                            <small>Mensagem de erro</small>
+                                                  </div>
+
+                                                  <div class="form-control">
+                                                            <label for="golsSofridos_TimeDeFora">Gols Sofridos pelo Time
+                                                                      de Fora</label>
+                                                            <input type="number" id="golsSofridos_TimeDeFora"
+                                                                      placeholder="Digite Número de Gols" />
+                                                            <i class="fas fa-exclamation-circle"></i>
+                                                            <i class="fas fa-check-circle"></i>
+                                                            <small>ERRO</small>
+                                                  </div>
+
+                                                  <button type="submit" id="botao">Calcular</button>
+
+                                                  <div class="resultadoFinalOver" id="resultadoFinalOver">
+                                                            <h3 class="resultado"></h3>
+                                                            <h1 class="resultadoGolsSofridosFeitos"></h1>
+                                                            <h1 class="resultadoDeFora"></h1>
+                                                            <h1 class="aprovado"></h1>
+                                                  </div>
+
+                                                  <div class="navegacao" id="navegacao">
+                                                            <a href="FiltroOver25Gol.html" class="voltar"></a>
+                                                            <a href="AnalisandoPercentualDeAcertoDesteJogo.html"
+                                                                      class="continuar"></a>
+                                                  </div>
+                                        </form>
+                    </div>
+                    <script src="FiltroGolsFeitosESofridos.js"></script>
+                    <script src="https://kit.fontawesome.com/5aa0e30005.js" crossorigin="anonymous"></script>
+          </body>
+
+</html>

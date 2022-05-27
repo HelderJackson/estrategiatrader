@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="FiltroOver25Gol.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+         rel="stylesheet">
+      <title>EM CONSTRUÇÃO</title>
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="header">
+            <h2>ESTRATÉGIA G-GREN 1,5 GOLS.</h2>
+         </div>
+         <h1>ANÁLISANDO OVER 2,5 GOLS DO TIME DA CASA E DO TIME DE FORA.</h2>
+            <form id="form" class="form">
+               <div class="form-control">
+                  <label for="nmDeJgTimeDaCasa">Número de Jogos do Time da Casa</label>
+                  <input type="number" id="nmDeJgTimeDaCasa" placeholder="Digite Número de Jogos" />
+                  <i class="fas fa-exclamation-circle"></i>
+                  <i class="fas fa-check-circle"></i>
+                  <small>Mensagem de erro</small>
+               </div>
+
+               <div class="form-control">
+                  <label for="nmDeJgTimeDeFora">Número de Jogos do Time de Fora</label>
+                  <input type="number" id="nmDeJgTimeDeFora" placeholder="Digite Número de Jogos" />
+                  <i class="fas fa-exclamation-circle"></i>
+                  <i class="fas fa-check-circle"></i>
+                  <small>ERRO</small>
+               </div>
+
+               <button type="submit" id="calc">Calcular</button>
+
+               <div class="resultadoFinalOver" id="resultadoFinalOver">
+                  <h3 class="resultado"></h3>
+                  <h1 class="resultadoDeCasa"></h1>
+                  <h1 class="resultadoDeFora"></h1>
+                  <h1 class="aprovado"></h1>
+               </div>
+
+               <div class="navegacao" id="navegacao">
+                  <a href="FiltroOver25Gol.html" class="voltar"></a>
+                  <a href="FiltroGolsFeitosESofridos.html" id="cont" class="continuar"></a>
+               </div>
+            </form>
+      </div>
+      <script src="FiltroOver25Gol.js"></script>
+      <script src="https://kit.fontawesome.com/5aa0e30005.js" crossorigin="anonymous"></script>
+   </body>
+
+</html>
